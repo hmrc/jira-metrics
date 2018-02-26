@@ -1,0 +1,444 @@
+{
+  "key": "PTC-1856",
+  "fields": {
+    "creator": {
+      "displayName": "Kieran Wyatt",
+      "name": "kieran.wyatt",
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/user?username=kieran.wyatt",
+      "avatarUrls": {
+        "24x24": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=small&ownerId=kieran.wyatt&avatarId=15808",
+        "32x32": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=medium&ownerId=kieran.wyatt&avatarId=15808",
+        "48x48": "https://jira.tools.tax.service.gov.uk/secure/useravatar?ownerId=kieran.wyatt&avatarId=15808",
+        "16x16": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=xsmall&ownerId=kieran.wyatt&avatarId=15808"
+      },
+      "emailAddress": "kieran.wyatt@digital.hmrc.gov.uk",
+      "key": "kieran.wyatt",
+      "active": true,
+      "timeZone": "Europe/London"
+    },
+    "customfield_10600": null,
+    "aggregatetimeestimate": null,
+    "labels": [
+      "LiveService"
+    ],
+    "watches": {
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issue/PTC-1856/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "customfield_11101": null,
+    "assignee": {
+      "displayName": "Kieran Wyatt",
+      "name": "kieran.wyatt",
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/user?username=kieran.wyatt",
+      "avatarUrls": {
+        "24x24": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=small&ownerId=kieran.wyatt&avatarId=15808",
+        "32x32": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=medium&ownerId=kieran.wyatt&avatarId=15808",
+        "48x48": "https://jira.tools.tax.service.gov.uk/secure/useravatar?ownerId=kieran.wyatt&avatarId=15808",
+        "16x16": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=xsmall&ownerId=kieran.wyatt&avatarId=15808"
+      },
+      "emailAddress": "kieran.wyatt@digital.hmrc.gov.uk",
+      "key": "kieran.wyatt",
+      "active": true,
+      "timeZone": "Europe/London"
+    },
+    "lastViewed": null,
+    "customfield_10500": null,
+    "issuelinks": [
+      {
+        "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issueLink/402377",
+        "inwardIssue": {
+          "fields": {
+            "status": {
+              "statusCategory": {
+                "name": "To Do",
+                "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray"
+              },
+              "description": "This status is managed internally by JIRA Software",
+              "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/status/14406",
+              "iconUrl": "https://jira.tools.tax.service.gov.uk/",
+              "id": "14406",
+              "name": "Ready for 3 amigos"
+            },
+            "priority": {
+              "iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/issuetypes/blank.png",
+              "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/priority/6",
+              "name": "Standard",
+              "id": "6"
+            },
+            "issuetype": {
+              "name": "Story",
+              "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issuetype/7",
+              "iconUrl": "https://jira.tools.tax.service.gov.uk/secure/viewavatar?size=xsmall&avatarId=10915&avatarType=issuetype",
+              "subtask": false,
+              "avatarId": 10915,
+              "id": "7",
+              "description": "gh.issue.story.desc"
+            },
+            "summary": "Receipt Method : Unknown"
+          },
+          "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issue/418613",
+          "id": "418613",
+          "key": "PTC-1850"
+        },
+        "type": {
+          "outward": "depends on",
+          "inward": "is dependency for",
+          "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issueLinkType/10400",
+          "id": "10400",
+          "name": "Dependency"
+        },
+        "id": "402377"
+      }
+    ],
+    "customfield_10200": {
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/customFieldOption/10100",
+      "id": "10100",
+      "value": "Must have"
+    },
+    "customfield_10203": null,
+    "customfield_11300": "2|hykmus:",
+    "description": "Create a new error page for the users who are being returned as \"unknown status\" from DES/NPS.",
+    "project": {
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/project/13733",
+      "avatarUrls": {
+        "24x24": "https://jira.tools.tax.service.gov.uk/secure/projectavatar?size=small&pid=13733&avatarId=10011",
+        "32x32": "https://jira.tools.tax.service.gov.uk/secure/projectavatar?size=medium&pid=13733&avatarId=10011",
+        "48x48": "https://jira.tools.tax.service.gov.uk/secure/projectavatar?pid=13733&avatarId=10011",
+        "16x16": "https://jira.tools.tax.service.gov.uk/secure/projectavatar?size=xsmall&pid=13733&avatarId=10011"
+      },
+      "id": "13733",
+      "key": "PTC",
+      "name": "P800 Tax Calculation"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_11001": null,
+    "customfield_11104": null,
+    "customfield_10002": null,
+    "customfield_11100": null,
+    "fixVersions": [],
+    "customfield_11102": null,
+    "customfield_11103": null,
+    "priority": {
+      "iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/priority_major.gif",
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/priority/10101",
+      "name": "Major",
+      "id": "10101"
+    },
+    "customfield_10201": null,
+    "timespent": null,
+    "customfield_11800": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "duedate": null,
+    "status": {
+      "statusCategory": {
+        "name": "Done",
+        "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green"
+      },
+      "description": "",
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/status/10001",
+      "iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/statuses/closed.png",
+      "id": "10001",
+      "name": "Done"
+    },
+    "updated": "2018-02-26T08:01:34.000+0000",
+    "customfield_10603": null,
+    "subtasks": [],
+    "components": [],
+    "customfield_10800": null,
+    "reporter": {
+      "displayName": "Kieran Wyatt",
+      "name": "kieran.wyatt",
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/user?username=kieran.wyatt",
+      "avatarUrls": {
+        "24x24": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=small&ownerId=kieran.wyatt&avatarId=15808",
+        "32x32": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=medium&ownerId=kieran.wyatt&avatarId=15808",
+        "48x48": "https://jira.tools.tax.service.gov.uk/secure/useravatar?ownerId=kieran.wyatt&avatarId=15808",
+        "16x16": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=xsmall&ownerId=kieran.wyatt&avatarId=15808"
+      },
+      "emailAddress": "kieran.wyatt@digital.hmrc.gov.uk",
+      "key": "kieran.wyatt",
+      "active": true,
+      "timeZone": "Europe/London"
+    },
+    "customfield_11500": null,
+    "customfield_11501": null,
+    "summary": "Error page for \"unknown status\" fails",
+    "customfield_11600": null,
+    "customfield_10008": null,
+    "customfield_10100": null,
+    "customfield_10006": "9223372036854775807",
+    "customfield_10007": [
+      "com.atlassian.greenhopper.service.sprint.Sprint@5dc4f0dc[id=6321,rapidViewId=1336,state=ACTIVE,name=Sprint 57,startDate=2018-02-15T08:00:00.000Z,endDate=2018-02-28T14:00:00.000Z,completeDate=<null>,sequence=6321]"
+    ],
+    "customfield_10004": 2.0,
+    "timeoriginalestimate": null,
+    "customfield_10003": null,
+    "environment": null,
+    "aggregatetimeoriginalestimate": null,
+    "created": "2018-02-23T09:52:05.000+0000",
+    "customfield_10204": 57.0,
+    "versions": [],
+    "resolutiondate": "2018-02-23T13:50:31.000+0000",
+    "customfield_10501": null,
+    "customfield_10202": null,
+    "workratio": -1,
+    "aggregatetimespent": null,
+    "customfield_12002": null,
+    "issuetype": {
+      "name": "UI Story",
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issuetype/14",
+      "iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/issuetypes/health.png",
+      "subtask": false,
+      "id": "14",
+      "description": "UI research, prototypes, etc"
+    },
+    "resolution": {
+      "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/resolution/7",
+      "id": "7",
+      "name": "Done",
+      "description": "The definition of done has been achieved"
+    },
+    "timeestimate": null,
+    "customfield_12100": null
+  },
+  "self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issue/421856",
+  "id": "421856",
+  "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields"
+}
+
+Issue Number: PTC-1856
+Assignee: Kieran Wyatt
+Summary: Error page for "unknown status" fails
+Status: Done
+
+{
+"key": "PTC-1770",
+"fields": {
+"creator": {
+"displayName": "Wendy Milne",
+"name": "wendy.milne",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/user?username=wendy.milne",
+"avatarUrls": {
+"24x24": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=small&avatarId=10117",
+"32x32": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=medium&avatarId=10117",
+"48x48": "https://jira.tools.tax.service.gov.uk/secure/useravatar?avatarId=10117",
+"16x16": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=xsmall&avatarId=10117"
+},
+"emailAddress": "wendy.milne@digital.hmrc.gov.uk",
+"key": "wendy.milne",
+"active": true,
+"timeZone": "Europe/London"
+},
+"customfield_10600": null,
+"aggregatetimeestimate": null,
+"labels": [],
+"watches": {
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issue/PTC-1770/watchers",
+"watchCount": 2,
+"isWatching": false
+},
+"customfield_11101": null,
+"assignee": {
+"displayName": "Kieran Wyatt",
+"name": "kieran.wyatt",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/user?username=kieran.wyatt",
+"avatarUrls": {
+"24x24": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=small&ownerId=kieran.wyatt&avatarId=15808",
+"32x32": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=medium&ownerId=kieran.wyatt&avatarId=15808",
+"48x48": "https://jira.tools.tax.service.gov.uk/secure/useravatar?ownerId=kieran.wyatt&avatarId=15808",
+"16x16": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=xsmall&ownerId=kieran.wyatt&avatarId=15808"
+},
+"emailAddress": "kieran.wyatt@digital.hmrc.gov.uk",
+"key": "kieran.wyatt",
+"active": true,
+"timeZone": "Europe/London"
+},
+"lastViewed": "2018-02-14T09:56:33.766+0000",
+"customfield_10500": null,
+"issuelinks": [
+{
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issueLink/384514",
+"inwardIssue": {
+"fields": {
+"status": {
+"statusCategory": {
+"name": "To Do",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/statuscategory/2",
+"id": 2,
+"key": "new",
+"colorName": "blue-gray"
+},
+"description": "",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/status/10002",
+"iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/statuses/open.png",
+"id": "10002",
+"name": "To Do"
+},
+"priority": {
+"iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/issuetypes/blank.png",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/priority/6",
+"name": "Standard",
+"id": "6"
+},
+"issuetype": {
+"name": "Story",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issuetype/7",
+"iconUrl": "https://jira.tools.tax.service.gov.uk/secure/viewavatar?size=xsmall&avatarId=10915&avatarType=issuetype",
+"subtask": false,
+"avatarId": 10915,
+"id": "7",
+"description": "gh.issue.story.desc"
+},
+"summary": "Get Help - Error message revised content"
+},
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issue/403928",
+"id": "403928",
+"key": "PTC-1794"
+},
+"type": {
+"outward": "depends on",
+"inward": "is dependency for",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issueLinkType/10400",
+"id": "10400",
+"name": "Dependency"
+},
+"id": "384514"
+}
+],
+"customfield_10200": {
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/customFieldOption/10103",
+"id": "10103",
+"value": "Would be nice"
+},
+"customfield_10203": null,
+"customfield_11300": "2|hykmpf:",
+"description": "*Background*\r\nFollowing the design review, please review and revise the page content and consider:-\r\n\r\nThere is a Problem Error Message - 'Confirm' should be changed to 'Tell us'\r\n\r\nThis applies to Simple Assessment, P800 and VPL\r\n\r\nPrototypes: \r\nSimple Assessment: https://www.prototypes.tax.service.gov.uk/taxcalc-prototype/sprint57/simple-assessment/get-help\r\nP800: https://www.prototypes.tax.service.gov.uk/taxcalc-prototype/sprint57/coded-out/get-help\r\nVPL: https://www.prototypes.tax.service.gov.uk/taxcalc-prototype/sprint57/vpl/get-help\r\n\r\nThe changes made to this page will require the page to be translated again into Welsh. As part of this ticket can we liaise with the WLU to:-\r\n\r\n* get the translated content,\r\n* create the prototype\r\n* gain signoff of the Welsh content.\r\n",
+"project": {
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/project/13733",
+"avatarUrls": {
+"24x24": "https://jira.tools.tax.service.gov.uk/secure/projectavatar?size=small&pid=13733&avatarId=10011",
+"32x32": "https://jira.tools.tax.service.gov.uk/secure/projectavatar?size=medium&pid=13733&avatarId=10011",
+"48x48": "https://jira.tools.tax.service.gov.uk/secure/projectavatar?pid=13733&avatarId=10011",
+"16x16": "https://jira.tools.tax.service.gov.uk/secure/projectavatar?size=xsmall&pid=13733&avatarId=10011"
+},
+"id": "13733",
+"key": "PTC",
+"name": "P800 Tax Calculation"
+},
+"aggregateprogress": {
+"progress": 0,
+"total": 0
+},
+"customfield_11001": null,
+"customfield_11104": null,
+"customfield_10002": null,
+"customfield_11100": null,
+"fixVersions": [],
+"customfield_11102": null,
+"customfield_11103": null,
+"priority": {
+"iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/issuetypes/blank.png",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/priority/6",
+"name": "Standard",
+"id": "6"
+},
+"customfield_10201": null,
+"timespent": null,
+"customfield_11800": null,
+"progress": {
+"progress": 0,
+"total": 0
+},
+"duedate": null,
+"status": {
+"statusCategory": {
+"name": "Done",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/statuscategory/3",
+"id": 3,
+"key": "done",
+"colorName": "green"
+},
+"description": "",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/status/10001",
+"iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/statuses/closed.png",
+"id": "10001",
+"name": "Done"
+},
+"updated": "2018-02-26T09:10:24.000+0000",
+"customfield_10603": null,
+"subtasks": [],
+"components": [],
+"customfield_10800": null,
+"reporter": {
+"displayName": "Wendy Milne",
+"name": "wendy.milne",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/user?username=wendy.milne",
+"avatarUrls": {
+"24x24": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=small&avatarId=10117",
+"32x32": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=medium&avatarId=10117",
+"48x48": "https://jira.tools.tax.service.gov.uk/secure/useravatar?avatarId=10117",
+"16x16": "https://jira.tools.tax.service.gov.uk/secure/useravatar?size=xsmall&avatarId=10117"
+},
+"emailAddress": "wendy.milne@digital.hmrc.gov.uk",
+"key": "wendy.milne",
+"active": true,
+"timeZone": "Europe/London"
+},
+"customfield_11500": null,
+"customfield_11501": null,
+"summary": "Get Help - Error Message",
+"customfield_11600": null,
+"customfield_10008": "PTC-1762",
+"customfield_10100": null,
+"customfield_10006": "9223372036854775807",
+"customfield_10007": [
+"com.atlassian.greenhopper.service.sprint.Sprint@5dc4f0dc[id=6321,rapidViewId=1336,state=ACTIVE,name=Sprint 57,startDate=2018-02-15T08:00:00.000Z,endDate=2018-02-28T14:00:00.000Z,completeDate=<null>,sequence=6321]"
+],
+"customfield_10004": 1.0,
+"timeoriginalestimate": null,
+"customfield_10003": null,
+"environment": null,
+"aggregatetimeoriginalestimate": null,
+"created": "2018-01-03T11:41:00.000+0000",
+"customfield_10204": null,
+"versions": [],
+"resolutiondate": "2018-02-16T11:54:59.000+0000",
+"customfield_10501": null,
+"customfield_10202": null,
+"workratio": -1,
+"aggregatetimespent": null,
+"customfield_12002": null,
+"issuetype": {
+"name": "UI Story",
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issuetype/14",
+"iconUrl": "https://jira.tools.tax.service.gov.uk/images/icons/issuetypes/health.png",
+"subtask": false,
+"id": "14",
+"description": "UI research, prototypes, etc"
+},
+"resolution": {
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/resolution/7",
+"id": "7",
+"name": "Done",
+"description": "The definition of done has been achieved"
+},
+"timeestimate": null,
+"customfield_12100": null
+},
+"self": "https://jira.tools.tax.service.gov.uk/rest/api/2/issue/398528",
+"id": "398528",
+"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields"
+}
