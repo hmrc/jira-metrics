@@ -1,2 +1,5 @@
 venv
 jira-metrics.ini
+github-metrics.ini
+target/
+.*
