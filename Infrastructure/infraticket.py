@@ -8,9 +8,15 @@ class InfraTicket(Ticket):
         super().__init__(key, summary, issue_type, created_date ,histories)
         
         self.status_open = "Open"
+        self.status_product_backlog = "Product Backlog"
+        self.status_todo = "To Do"
         self.status_reopened = "Reopened"
         self.status_dev_ready = "Dev Ready"
+        self.status_next = "Next"
+        self.status_triage = "Triage"
         self.status_in_progress = "In Progress"
+        self.status_needs_more_info = "Needs more info"
+        self.status_blocked = "Blocked"
         self.status_dev_complete = "Dev Complete"
         self.status_resolved = "Resolved"
         self.status_closed = "Closed"    
@@ -19,9 +25,15 @@ class InfraTicket(Ticket):
         
         self.status_dates = {
                 self.status_open : None,
+                self.status_product_backlog : None,
+                self.status_todo : None,
                 self.status_reopened : None,
                 self.status_dev_ready : None,
+                self.status_next : None,
+                self.status_triage : None,
                 self.status_in_progress : None,
+                self.status_needs_more_info : None,
+                self.status_blocked : None,
                 self.status_dev_complete : None,
                 self.status_resolved : None,
                 self.flaggedImpediment : None,
@@ -30,9 +42,15 @@ class InfraTicket(Ticket):
         
         self.status_values = {        
                 self.status_open : 1,
+                self.status_product_backlog : 1,
+                self.status_todo : 1,
                 self.status_reopened : 1,
                 self.status_dev_ready : 2,
+                self.status_next : 2,
+                self.status_triage : 2,
                 self.status_in_progress : 3,
+                self.status_needs_more_info : 3,
+                self.status_blocked : 3,
                 self.status_dev_complete : 4,
                 self.status_resolved : 4,
                 self.status_closed : 5

@@ -6,9 +6,12 @@ class SupTicket(Ticket):
     def __init__(self, key, summary, issue_type, created_date, histories):
         super().__init__(key, summary, issue_type, created_date, histories)
         self.status_open = "Open"
+        self.status_product_backlog = "Product Backlog"
         self.status_next = "Next"
         self.status_dev_ready = "Dev Ready"
+        self.status_triage = "Triage"
         self.status_in_progress = "In Progress"
+        self.status_needs_more_info = "Needs more info"
         self.status_assigned = "Assigned"
         self.status_blocked = "Blocked"
         self.status_dev_complete = "Dev Complete"
@@ -17,9 +20,12 @@ class SupTicket(Ticket):
         
         self.status_values = {        
             self.status_open : 1,
+            self.status_product_backlog : 1,
             self.status_next : 2,
             self.status_dev_ready : 3,
+            self.status_triage : 4,
             self.status_in_progress : 4,
+            self.status_needs_more_info : 4,
             self.status_assigned : None,
             self.status_blocked : 1,
             self.status_dev_complete : 5,
@@ -29,9 +35,12 @@ class SupTicket(Ticket):
         
         self.status_dates  = {
             self.status_open : None,
+            self.status_product_backlog : None,
             self.status_next : None,
             self.status_dev_ready : None,
+            self.status_triage : None,
             self.status_in_progress : None,
+            self.status_needs_more_info : None,
             self.status_assigned : None,
             self.status_blocked : None,
             self.status_dev_complete : None,
