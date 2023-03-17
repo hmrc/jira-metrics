@@ -14,7 +14,7 @@ How to create Jira API Token
 4. On the right you'll see a big blue button Create Token, click on it. 
 5. Add a token name under the Token Name text box, your token will expire in 90 days unless you change it.
 6. Click Create
-7. Copy the Token created, once you click close you'll be unable to retrireve it and will need to create a new one.
+7. Copy the Token created, once you click close you'll be unable to retrieve it and will need to create a new one.
 
 
 pip install -r requirements.txt
