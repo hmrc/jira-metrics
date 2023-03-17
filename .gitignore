@@ -3,3 +3,6 @@ jira-metrics.ini
 github-metrics.ini
 target/
 .*
+infrastructure/__pycache__
+infrastructure/~$Metrics.xlsx
+infrastructure/Metrics.xlsx
